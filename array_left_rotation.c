@@ -2,7 +2,7 @@
 
 int main() {
     int n, k, i, r;
-    int arr[100];   // fixed size array
+    int arr[100];   
 
     printf("Enter the size of array:\n");
     scanf("%d", &n);
@@ -14,8 +14,7 @@ int main() {
 
     printf("Enter the value of k:\n");
     scanf("%d", &k);
-    k = k % n;  // handle cases where k > n
-
+    k = k % n; 
     int temp;
     for(r = 0; r < k; r++) {
         temp = arr[0];
