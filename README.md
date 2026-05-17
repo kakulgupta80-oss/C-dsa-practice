@@ -2,5 +2,5 @@
 ~arrays
 ~binary search
 ~linear search
-~bubble xort
+~bubble sort
 ~ selection sort
